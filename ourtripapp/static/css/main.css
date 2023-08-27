@@ -16,7 +16,11 @@ body{ font-family:sans-serif;
 
 .container {
   padding: 2px 16px;
-  text-align: center;
+  text-align:left;
+}
+.badgecontainer {
+  padding: 2px 16px;
+  text-align:center;
 }
 .img {
   max-width: 300px;
