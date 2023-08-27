@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dayprogram</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+<link rel="manifest" href="{% static 'images/site.webmanifest' %}">
+<link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+</head>
+<body>
+
+{% if tripday %}
+    
+    {% for dayprogram in tripday %}
+    <div class="card">
+        <div class="container">
+        <p><h1>{{ dayprogram.tripdate|date:'l d M Y' }}</h1></p>
+        <p class="smallgrey">Program for this day</p><p>{{ dayprogram.dayprogram }}</p>
+        <p class="smallgrey">Must Do Activities</p><p>{{ dayprogram.bookedactivities }}</p>
+        <p class="smallgrey">Possible Activities</p><p>{{ dayprogram.possibleactivities }}</p>
+        <p class="smallgrey">Needed documents and tickets</p><p>{{ dayprogram.documentsneeded }}</p>
+        <p class="smallgrey">Assignment</p><p>{{ dayprogram.task }}</p>
+        <p class="smallgrey">Don't Forget</p><p>{{ dayprogram.actionitems }}</p>
+        </div>
+    </div>
+    {% endfor %}
+    
+{% else %}
+    <p>No info available.</p>
+{% endif %}
+</body>
+</html>
+
