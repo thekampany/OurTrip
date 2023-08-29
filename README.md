@@ -11,4 +11,22 @@ Familymembers or groupmembers (trippers) can use the app to see dayprograms and 
 Via admin site you can enter all the trip information, make badges available and assign badges to trippers.
 
 # Install
+Clone alle projectfiles
+
+Optional Replace favicon with your own favicon
+
+Build the docker container
+
+Run the docker container
+
+Navigate in your browser to the url where Ourtrip container is running.
+Use /admin to configure your trip. 
+Check /ourtripapp for the site/webapp
+
+# Configuration
+Via admin set a title for your trip.
+Enter all dayprograms
+Enter all people joining the trip as tripper.
+You can add badges by adding urls of image files.
+After you can assign a badge to tripper. This can especially be done during the trip when trippers do assignments.
 
