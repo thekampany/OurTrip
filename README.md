@@ -31,7 +31,7 @@ Use /admin to configure your trip.
 Check /ourtripapp for the site/webapp
 
 # Configuration
-Via admin set a title for your trip.
+Via admin set a title for your trip. Use admin password.
 Enter all dayprograms
 Enter all people joining the trip as tripper.
 You can add badges by adding urls of image files.
