@@ -10,6 +10,13 @@ Also i wanted to keep them a bit excited during longer stretches in the car. So 
 Familymembers or groupmembers (trippers) can use the app to see dayprograms and badges they have earned
 Via admin site you can enter all the trip information, make badges available and assign badges to trippers.
 
+# Screenshots
+![Program Day by Day](https://www.thekampany.com/backoffice/sites/ourtrip/screenshot1.jpeg "program day by day")
+![Detailprogram](https://www.thekampany.com/backoffice/sites/ourtrip/screenshot2.jpeg "detailprogram of a day")
+![Badges](https://www.thekampany.com/backoffice/sites/ourtrip/screenshot3.jpeg "earned badges")
+![Adminconfig](https://www.thekampany.com/backoffice/sites/ourtrip/screenshot4.jpeg "configure via admin")
+![homescreen](https://www.thekampany.com/backoffice/sites/ourtrip/screenshot5.jpeg "use own favicon to put on homescreen")
+
 # Install
 Clone alle projectfiles
 
