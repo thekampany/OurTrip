@@ -16,6 +16,7 @@ class DayProgram(models.Model):
    documentsneeded = models.TextField(null=True)
    task = models.TextField(null=True)
    actionitems = models.CharField(max_length=400, null=True)
+   part_of_trip = models.ForeignKey(Title, on_delete=models.CASCADE, null=True, blank=True)
 
    def __str__(self):
      return self.dayprogram

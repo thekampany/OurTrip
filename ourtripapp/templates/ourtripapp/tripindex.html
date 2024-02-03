@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ title.title }}</title>
+<title>{% for title in title %}{{ title.title }}{% endfor %}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
 <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
@@ -14,7 +14,7 @@
 <div class="card">
 <div class="container">
 
-<h2>{{ title.title }}</h2>
+<h2>{% for title in title %}{{ title.title }}{% endfor %}</h2>
 <h1>Program</h1>
 
 {% if tripdaylist %}
@@ -43,10 +43,4 @@
    </div>
 {% endif %}
 
-<br /><br />
-<div class="card">
-   <div class="container">
-      <p class="smallgrey"><a href="/ourtripapp/trips">Other Trips</a></p>
-   </div>
-</div>
 </body>

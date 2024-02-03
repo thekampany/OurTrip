@@ -13,3 +13,5 @@ admin.site.register(Tripper)
 admin.site.register(Badge)
 
 admin.site.register(Title)
+
+
